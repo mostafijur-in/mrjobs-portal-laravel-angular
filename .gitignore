@@ -1,0 +1,62 @@
+*.sqlite
+/node_modules
+/public/css
+/public/fonts
+/public/img
+/public/js
+/public/media
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+public/mix-manifest.json
+composer.lock
+package-lock.json
+
+# ignore user / system specific files
+.vscode
+.phpstorm.meta.php
+_ide_helper.php
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ignore backup and old files
+_old/
+tmp/
+
+# ignore htaccess file
+.htaccess
